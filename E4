@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        int EdJuan;
+        int EdAlberto = 0;
+        int EdAna = 0;
+        int EdMama = 0;
+        Scanner ent1 = new Scanner(System.in);
+        System.out.println("Ingrese la edad de Juan: ");
+        EdJuan = ent1.nextInt();
+        EdAlberto = 2 * EdJuan /3;
+        EdAna = 4 * EdJuan /3;
+        EdMama = EdJuan + EdAna + EdAlberto;
+        System.out.println("La edad de Juan es:" + EdJuan);
+        System.out.println("La edad de Alberto es: " + EdAlberto);
+        System.out.println("La edad de Ana es: " + EdAna);
+        System.out.println("La edad de la madre es: " + EdMama);
+    }
+}
