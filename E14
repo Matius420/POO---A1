@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        float X;
+        Scanner ent1 = new Scanner(System.in);
+        System.out.println("Ingrese el numero a calcular: ");
+        X = ent1.nextFloat();
+        System.out.println("El cuadrado de " + X + " es: " + X*X + ". Mientras que su cubo es: " + X*X*X);
+    }
+}
