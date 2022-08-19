@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        float X;
+        float salneto = 0;
+        Scanner ent1 = new Scanner(System.in);
+        System.out.println("Ingrese la cantidad de horas trabajadas en la semana: ");
+        X = ent1.nextInt();
+        salneto = (X*5000) - X*(5000*1/8);
+        System.out.println("Salario bruto: " + X * 5000 + " pesos colombianos.");
+        System.out.println(" Salario neto: retencion de la fuente (12,5) equivalente a: " + salneto + " pesos colombianos.");
+    }
+}
