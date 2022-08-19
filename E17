@@ -1,0 +1,11 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        float X;
+        Scanner ent1 = new Scanner(System.in);
+        System.out.println("Ingrese el radio del circulo: ");
+        X = ent1.nextFloat();
+        System.out.println("La longitud del circulo es: " + X * (Math.PI * 2) + ".");
+        System.out.println(" El area del circulo es: " + (X*X) * Math.PI);
+    }
+}
